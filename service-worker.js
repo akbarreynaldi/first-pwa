@@ -1,5 +1,5 @@
 //menyimpan asset ke cache storage
-const CACHE_NAME = "firstpwa";
+const CACHE_NAME = "firstpwa-v1";
 var urlsToCache = [
     "/",
     "/nav.html",
@@ -9,7 +9,8 @@ var urlsToCache = [
     "/pages/contact.html",
     "/css/materialize.min.css",
     "/js/materialize.min.js",
-    "/js/nav.js"
+    "/js/nav.js",
+    "/icon.png"
 ];
 
 self.addEventListener("install", function(event) {
